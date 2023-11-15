@@ -85,7 +85,7 @@
   padding: 0 0.5rem;
   background-color: var(--gray-400);
   color: white;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .finishedTasksContainer {
@@ -106,7 +106,7 @@
   padding: 0 0.5rem;
   background-color: var(--gray-400);
   color: white;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .emptyTasksContainer {

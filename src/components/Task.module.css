@@ -50,3 +50,8 @@
 .deleteTask:hover {
   color: var(--danger);
 }
+
+.taskFinished {
+  text-decoration: line-through;
+  color: var(--gray-300) !important;
+}
