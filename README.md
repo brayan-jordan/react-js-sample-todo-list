@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# React JS Sample TODO List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desenvolvi uma aplicação de lista de tarefas simples utilizando ReactJS e Typescript, atendendo aos requisitos do desafio proposto. A aplicação oferece funcionalidades básicas, permitindo aos usuários adicionar, remover e marcar tarefas como concluídas.
 
-Currently, two official plugins are available:
+## Como rodar o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+# Instalar dependências
+$ npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+# Rodar o projeto (http://localhost:3000)
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Imagens do projeto
+
+[Imagem 1](https://github.com/brayan-jordan/react-js-sample-todo-list/blob/master/docs/screenshot1.png)
+[Imagem 2](https://github.com/brayan-jordan/react-js-sample-todo-list/blob/master/docs/screenshot2.png)]
+
+## Link do desafio
+https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-ReactJS-91fd63dd1a5b4a2796152de293ec1074
