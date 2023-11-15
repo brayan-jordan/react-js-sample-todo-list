@@ -1,0 +1,131 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 12.5rem 1fr;
+}
+
+.main {
+  width: 46rem;
+}
+
+.addNewTaskForm {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -2rem;
+  width: 100%;
+  height: 52px;
+}
+
+.addNewTaskForm input {
+  padding: 1rem;
+  flex: 1;
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  color: var(--white);
+  border: 0;
+  transition: 0.2s;
+}
+
+.addNewTaskForm input:focus {
+  border: 1px solid var(--purple-dark);
+}
+
+.addNewTaskForm button {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  gap: 0.5rem;
+  color: var(--white);
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.addNewTaskForm button span {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.addNewTaskForm button:hover {
+  background-color: var(--blue);
+}
+
+.listTasksSection {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.listTasksSectionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasksContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.createdTasksText {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.createdTasksCount {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  background-color: var(--gray-400);
+  color: white;
+  border-radius: 50%;
+}
+
+.finishedTasksContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.finishedTasksText {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.finishedTasksCount {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  background-color: var(--gray-400);
+  color: white;
+  border-radius: 50%;
+}
+
+.emptyTasksContainer {
+  height: 16rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyTasksContainer > span {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.hasTasksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
